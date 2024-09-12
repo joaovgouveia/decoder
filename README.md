@@ -1,5 +1,5 @@
 # DECODEX - Multi code decypher - V 0.1
-> A tool to decode stuff.
+> A tool to decode and encode stuff.
 
 ## How to setup
 * Download the project form github.
