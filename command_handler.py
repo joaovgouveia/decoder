@@ -1,4 +1,5 @@
 import decoders.alphabetic_shifts
+import decoders.ascii
 
 def handle_command(line, content):
     if line == "exit": exit()
@@ -17,5 +18,6 @@ def run(cmd):
 commands = {
     "invert_alphabet": decoders.alphabetic_shifts.inverted_alphabet,
     "shift": decoders.alphabetic_shifts.shift_by,
-    "shift_all": decoders.alphabetic_shifts.shift_all
+    "shift_all": decoders.alphabetic_shifts.shift_all,
+    "binary_to_ascii": decoders.ascii.binary_to_ascii 
 }
